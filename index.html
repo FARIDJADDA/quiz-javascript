@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Russo+OneDisplay=swap">
+    <title>Quiz JS</title>
+</head>
+
+<body>
+
+    <h1>Quizz Culture générale !</h1>
+
+    <div class="container-global">
+
+        <form class="form-quiz">
+            <div class="question-block">
+                <h4>Je suis d'origine bresilienne pourtant j'ai joué pour la Scuadra Azura, j'ai joué dans les championnats Francais, Espagnol et Italien qui suis-je ?</h4>
+                <div>
+                    <input type="radio" id="Ronaldinho" name="q1" value="a" checked>
+                    <label for="Ronaldinho">Ronaldinho</label>
+                </div>
+                <div>
+                    <input type="radio" id="Motta" name="q1" value="b">
+                    <label for="Motta">Motta</label>
+                </div>
+                <div>
+                    <input type="radio" id="Baggio" name="q1" value="c">
+                    <label for="Baggio">Baggio</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Je suis une légende, ayant gagné la ligue des champions en tant que Joueur puis Entraineur pour la même équipe. J'ai joué en Italie, en Espagne et aussi en France qui suis-je?</h4>
+                <div>
+                    <input type="radio" id="Ancelotti" name="q2" value="a" checked>
+                    <label for="Ancelotti">Ancelotti</label>
+                </div>
+                <div>
+                    <input type="radio" id="Guardiola" name="q2" value="b">
+                    <label for="Guardiola">Guardiola</label>
+                </div>
+                <div>
+                    <input type="radio" id="Zidane" name="q2" value="c">
+                    <label for="Zidane">Zidane</label>
+                </div>
+            </div>
+
+            <button type="submit">Validez vos choix !</button>
+        </form>
+
+        <div class="result">
+            <h2>Cliquez sur valider pour voir les resultats.</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
